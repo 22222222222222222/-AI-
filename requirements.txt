@@ -1,0 +1,35 @@
+# 神經網路學習必要套件
+# 使用指令安裝: pip install -r requirements.txt
+
+# 基礎數據處理
+numpy>=1.21.0
+pandas>=1.3.0
+
+# 視覺化
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# 機器學習
+scikit-learn>=1.0.0
+
+# 深度學習框架 (選擇其一即可)
+tensorflow>=2.8.0
+# torch>=1.11.0  # 如果偏好PyTorch，取消註解並註解tensorflow
+
+# 資料處理和圖像處理
+Pillow>=8.3.0
+opencv-python>=4.5.0
+
+# Jupyter環境
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0
+
+# 其他實用套件
+tqdm>=4.62.0  # 進度條
+requests>=2.26.0  # 網路請求
+
+# 可選套件 (用於進階項目)
+# plotly>=5.3.0  # 互動式圖表
+# streamlit>=1.2.0  # 網頁應用
+# gradio>=2.0.0  # 快速建立ML介面
